@@ -914,3 +914,27 @@ br.wide { display: inline; }
 .cap em, .body em, .lead em, .gj em, .box em, .ask em {
   font-style: normal; font-weight: 700; color: var(--accent-ink);
 }
+
+/* ══ 신입직원 안내 덱 — 타이포 위계 조정 ═══════════════════════════════
+   원본 토큰은 노사협의회 안건 설명용이라 조문·표를 빽빽하게 넣기 위해
+   보조 단계를 작게 잡아 두었다. 이 덱은 회의실에서 소수에게 띄우는
+   교육 자료이고, 화면당 내용도 그보다 적다. 세 가지를 고친다.
+
+   1) micro 와 cap 이 3px 차이라 단계로 읽히지 않았다 → 간격을 벌린다
+   2) 둘이 같은 색(--ink-3)이라 위계가 색으로도 구분되지 않았다
+      → cap 을 --ink-2 로 올려 「본문 : 보조」를 밝기로도 나눈다
+   3) 상자 머리글이 본문과 같은 크기였다 → 제목 크기를 따로 준다
+
+   토큰은 .slide 안에서만 덮어 좌측 탭·목차는 원본 크기를 유지한다. */
+.slide {
+  --fs-micro: clamp(16px, 1.78vh, 21px);
+  --fs-cap:   clamp(18px, 2.26vh, 27px);
+}
+.slide .cap { color: var(--ink-2); }
+.slide .box .h {
+  font-size: clamp(21px, 2.70vh, 32px);
+  line-height: 1.32; letter-spacing: -.008em; margin: 0 0 12px;
+}
+/* 범례와 표 머리글은 보조 정보라 키우지 않는다 */
+.slide .legend { font-size: clamp(15px, 1.58vh, 19px); }
+.slide thead th { font-size: clamp(15px, 1.62vh, 19px); }
