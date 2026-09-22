@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>신입직원 안내 — 창업진흥원 노동조합</title>
+<meta name="description" content="2026년 창업진흥원 노동조합 신입직원 안내. 노동조합·노사협의회·상조회 설명자료.">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="deck/vendor/animations.css">
+<link rel="stylesheet" href="deck/deck.css">
+</head>
+<body>
+
+<!-- ══ 좌측 탭 ══ -->
+<aside id="side">
+  <div class="side-top">
+    <img class="logo side-logo logo-d" src="deck/assets/logo-wide-dark.png" alt="창업진흥원노동조합" width="1400" height="218">
+    <img class="logo side-logo logo-l" src="deck/assets/logo-wide.png" alt="" width="1400" height="218">
+    <div class="t">신입직원 안내</div>
+    <div class="s">창업진흥원 노동조합 · 2026년</div>
+  </div>
+  <nav id="nav" aria-label="슬라이드 목차"></nav>
+  <div class="side-tools">
+    <button type="button" id="btnFull" title="전체화면 (F)" aria-label="전체화면">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+    </button>
+    <button type="button" id="btnNotes" title="발표 노트 (N)" aria-label="발표 노트">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 4h14v16H5zM8 9h8M8 13h8M8 17h5"/></svg>
+    </button>
+    <button type="button" id="btnTheme" title="밝은 화면 전환 (T)" aria-label="밝은 화면 전환">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4L17 7M7 17l-1.6 1.6"/></svg>
+    </button>
+    <button type="button" id="btnSide" title="목차 숨기기 (H)" aria-label="목차 숨기기">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h16"/></svg>
+    </button>
+  </div>
+</aside>
+
+<!-- 목차를 숨겼을 때 다시 여는 손잡이 -->
+<button type="button" id="sideOpen" title="목차 보이기 (H)" aria-label="목차 보이기" hidden>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h16"/></svg>
+</button>
+
+<!-- 모바일에서 목차를 닫는 배경 -->
+<div id="sideScrim" hidden></div>
+
+<!-- ══ 현재 장 고정 표시 ══ -->
+<div id="nowch" aria-live="polite"></div>
+
+<!-- ══ 덱 ══ -->
+<div class="deck" id="deck">
+
+<!-- ══ 00-cover.html ══ -->
+<!-- ══ 표지 ══ -->
+<section class="slide cover" data-trans="blur" data-ch="표지" data-title="표지" data-fx="starfield">
+  <img class="logo logo-d materialize" src="deck/assets/logo-wide-dark.png" alt="창업진흥원노동조합" width="1400" height="218">
+  <img class="logo logo-l materialize" src="deck/assets/logo-wide.png" alt="" width="1400" height="218">
+  <p class="eyebrow rise">2026년 신입직원 안내<span class="sep">·</span>창업진흥원 노동조합</p>
+  <h1 class="title huge rise" style="--d:180ms">환영합니다</h1>
+  <p class="lead rise" style="--d:520ms">
+    노동조합 · 노사협의회 · 상조회 — 세 조직을 30분에 설명드립니다.
+  </p>
+  <p class="micro rise" style="--d:680ms">단체협약 제11조제2항에 따른 조합 소개 교육</p>
+  <div class="notes">
+    <p>인사부터. 「입사 축하드립니다. 창업진흥원 노동조합 위원장입니다.」</p>
+    <p><b>이 자리의 성격을 먼저 규정합니다.</b> 「가입 권유를 들으러 오신 자리가 아니라,
+    회사에 어떤 제도가 있는지 듣는 자리입니다. 그 제도 중에 저희가 만든 게 꽤 있어서
+    제가 설명을 맡았습니다.」</p>
+    <p>화면 조작 — 좌우 방향키 이동, F 전체화면, N 발표노트, T 밝은 화면, H 목차 숨기기,
+    숫자키 1⁠~⁠7 로 장 이동.</p>
+    <p><b>발표 전 확인</b> — 종이 서식 3종⁠(노동조합 가입원서 · 천원의 행복 동의서 ·
+    상조회원가입서)⁠과 펜을 미리 배포해 둔다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 01-this-room.html ══ -->
+<!-- ══ Ⅰ-1 이 두 시간 ══ -->
+<section class="slide" data-trans="wipe" data-ch="Ⅰ. 첫해에 겪을 일" data-title="이 두 시간">
+  <p class="eyebrow rise">Ⅰ-1<span class="sep">·</span>이 자리의 근거</p>
+  <h2 class="title mid rise" style="--d:100ms">이 두 시간도 협약에 적혀 있습니다</h2>
+  <blockquote class="q rise" style="--d:200ms">
+    전항의 교육 시행 시 조합이 조합을 소개할 수 있도록
+    <b>2시간의 교육시간을 부여한다.</b>
+    <cite>단체협약 제11조⁠(신입직원 교육) 제2항</cite>
+  </blockquote>
+  <ul class="gj rise" style="--d:320ms">
+    <li>제9조 — 조합원에게는 <b>분기별 2시간의 교육시간을 유급으로</b> 부여한다.<br class="wide">
+    적치·분할 사용 가능</li>
+    <li>제8조 — 총회·대의원대회·노사공동위원회 등은 <b>근무시간 중</b> 조합활동으로 인정된다</li>
+  </ul>
+  <p class="cap rise" style="--d:440ms">
+    제가 여러분 시간을 빌린 것이 아니라, 회사가 이행하고 있는 조항입니다.
+  </p>
+  <div class="notes">
+    <p><b>첫 문장에서 부담을 덜어냅니다.</b> 신입은 「회사 시간에 노조 얘기를 듣는 게 괜찮은가」를
+    가장 먼저 걱정합니다. 그 걱정을 조문으로 먼저 지웁니다.</p>
+    <p>제9조를 덧붙이는 이유 — 「가입하면 이런 시간이 매 분기 생깁니다」를 미리 심어 둡니다.
+    여기서 권유하지는 않습니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 02-first-call.html ══ -->
+<!-- ══ Ⅰ-2 먼저 만나는 건 민원 ══ -->
+<section class="slide" data-ch="Ⅰ. 첫해에 겪을 일" data-title="먼저 만나는 건 민원">
+  <p class="eyebrow rise">Ⅰ-2<span class="sep">·</span>제14장 인권보호</p>
+  <h2 class="title mid rise" style="--d:100ms">먼저 만나는 건 상사가 아니라 대외 민원입니다</h2>
+  <ul class="gj rise" style="--d:220ms">
+    <li>회사는 <b>업무관련자</b>로부터 조합원을 보호할 의무가 있다 — 제96조제2항
+      <ul>
+        <li>예비창업자 · 창업기업 · 총괄기관 · 관리기관 · 주관기관 등</li>
+        <li>갑질 · 폭언 · 성폭력 · 성희롱 · 인격모독 · 협박 · 강성민원</li>
+      </ul>
+    </li>
+    <li>제3자에 의한 인권침해 상황에 놓이면 <b>적정한 휴식 시간</b>을 부여한다 — 제97조제2항</li>
+  </ul>
+  <p class="cap rise" style="--d:380ms">
+    무리한 요구나 폭언으로부터 스스로를 보호하려고
+    <span class="chip ac">업무를 중단한 것</span>을 이유로 불리한 처우를 할 수 없습니다 — 제97조제5항
+  </p>
+  <div class="notes">
+    <p><b>노조라는 말을 이 장에서는 거의 쓰지 않습니다.</b> 「제도가 있다」만 말합니다.</p>
+    <p>신입이 첫해에 실제로 겪는 장면부터 놓습니다. 사업 공고 마감일에 걸려오는 전화,
+    주관기관 담당자의 반말, 탈락 기업의 항의. 이 얘기를 먼저 하면 나머지 23장이 자기 얘기가 됩니다.</p>
+    <p>제97조제5항을 손으로 짚습니다. 「전화를 끊어도 됩니다. 끊었다고 불이익 줄 수 없게
+    협약에 박아 놨습니다.」</p>
+  </div>
+</section>
+
+
+<!-- ══ 03-when-it-happens.html ══ -->
+<!-- ══ Ⅰ-3 일이 생기면 ══ -->
+<section class="slide" data-ch="Ⅰ. 첫해에 겪을 일" data-title="일이 생기면">
+  <p class="eyebrow rise">Ⅰ-3<span class="sep">·</span>회사의 의무</p>
+  <h2 class="title mid rise" style="--d:100ms">일이 생기면 회사가 움직여야 합니다</h2>
+  <ul class="gj rise" style="--d:200ms">
+    <li>금지되는 <b>직장 내 괴롭힘 13개 유형</b>을 협약에 열거했다 — 제98조제2항</li>
+    <li>금지되는 <b>갑질 7개 유형</b>을 협약에 열거했다 — 제99조제2항
+      <ul><li>사적 감정 등을 이유로 한 <b>근무시간 외 불요불급한 업무지시</b> 포함</li></ul>
+    </li>
+  </ul>
+  <div class="box ac rise" style="--d:340ms">
+    <p class="h">제100조 — 신고한 사람이 버티지 않도록</p>
+    <ul class="gj">
+      <li>조사기간 중 요청하면 근무장소 변경 · 배치전환 · <b>유급휴가 명령</b></li>
+      <li>사실이 확인되면 <b>무관용 원칙</b>으로 조치한다</li>
+      <li>피해자의 <b>심리상담 · 정신과 치료 비용을</b> 예산 범위 내에서 <b>회사가 부담</b>한다</li>
+      <li>조사·수사 중 또는 중징계 의결 요구 중에는 <b>의원면직을 허용할 수 없다</b></li>
+    </ul>
+  </div>
+  <div class="notes">
+    <p>유형 개수만 말하고 넘어갑니다. <b>13개·7개를 읽지 않습니다.</b>
+    「어디까지가 괴롭힘인지 다투지 않도록 목록으로 못 박아 뒀다」까지.</p>
+    <p><b>이 슬라이드의 핵심은 제100조 마지막 줄입니다.</b> 「가해자가 조사 중에 조용히 사표 내고
+    나가는 걸 막은 조항입니다. 이게 없으면 신고해도 아무 일 없이 끝납니다.」</p>
+    <p>치료비 부담도 짚습니다. 실제로 쓰인 조항입니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 04-burden.html ══ -->
+<!-- ══ Ⅰ-4 증명은 회사가 ══ -->
+<section class="slide" data-trans="scale" data-ch="Ⅰ. 첫해에 겪을 일" data-title="증명은 회사가">
+  <p class="eyebrow rise">Ⅰ-4<span class="sep">·</span>징계 절차</p>
+  <h2 class="title mid rise" style="--d:100ms">잘못했다는 증명은 회사가 합니다</h2>
+  <blockquote class="q rise" style="--d:200ms">
+    징계사유에 대한 객관적인 입증책임은 <b>회사에 있으며</b>, 징계대상 조합원이
+    징계의 부당성을 입증하지 못함으로써 회사의 징계사유가 입증되는 것은 아니다.
+    <cite>단체협약 제35조⁠(징계사유와 입증책임) 제2항</cite>
+  </blockquote>
+  <ul class="gj">
+    <li>명백한 고의 또는 과실이 아니면 해고 · 정직 · 감봉 등 징벌을 할 수 없다 — 제32조제1항</li>
+    <li>징계위원회는 위원장을 제외하고 <b>전원 외부위원</b>, 그 <b>절반은 조합이 추천</b>한다 — 제34조</li>
+    <li>조사받을 때 희망하면 조합이 <b>전문가 1인을 입회</b>시킨다 — 제35조제3항</li>
+    <li>절차를 위반한 징계는 <b>무효</b>.<br class="wide">
+    재심은 원심보다 중한 징계를 할 수 없다 — 제36조</li>
+  </ul>
+  <p class="micro">
+    산재 휴업기간과 그 후 30일, 산전·산후 휴가기간과 그 후 30일,
+    <b>육아휴직기간에는 어떠한 이유로도 해고할 수 없다</b> — 제37조제2항
+  </p>
+  <div class="notes">
+    <p><b>신입이 가장 겁내는 건 「억울해도 증명하지 못하면 끝」인 상황입니다.</b>
+    그 걱정의 정반대가 협약 제35조제2항에 있습니다. 이 문장 하나를 천천히 읽습니다.</p>
+    <p>제34조를 강조합니다. 「징계위원회에 회사 사람은 위원장 한 명입니다. 나머지는 다 외부인이고,
+    그 외부인의 절반은 우리가 추천합니다.」 — 이게 「내 편이 있다」의 가장 구체적인 형태입니다.</p>
+    <p>전환이 scale 이라 등장 효과는 제목과 인용 두 개만 줬습니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 05-two-names.html ══ -->
+<!-- ══ Ⅱ-1 교섭대표 두 사람 ══ -->
+<section class="slide" data-trans="wipe" data-ch="Ⅱ. 마주 앉는 자리" data-title="교섭대표 두 사람">
+  <p class="eyebrow rise">Ⅱ-1<span class="sep">·</span>그 조항은 누가 만들었나</p>
+  <h2 class="title mid rise" style="--d:100ms">교섭대표는 노동조합위원장과 창업진흥원장입니다</h2>
+  <div class="vs rise" style="--d:240ms">
+    <div class="side">
+      <p class="statlab">사용자측 교섭대표</p>
+      <p class="lead">창업진흥원장</p>
+    </div>
+    <div class="mid">와</div>
+    <div class="side b">
+      <p class="statlab">노동자측 교섭대표</p>
+      <p class="lead">노동조합위원장</p>
+    </div>
+  </div>
+  <blockquote class="q rise" style="--d:400ms">
+    교섭대표는 <b>노동조합위원장과 창업진흥원장</b>으로 하며,
+    단체교섭에 반드시 참석한다.
+    <cite>단체협약 제86조⁠(교섭위원 구성) 제2항</cite>
+  </blockquote>
+  <p class="micro rise" style="--d:520ms">
+    교섭위원은 노사동수로 구성하며 간사 포함 각각 6명 이내로 한다 — 같은 조 제1항 ·
+    협약은 2023. 12. 28. 체결 · 15장 112개 조 ·
+    조합원 205명으로 <b>가입률 75.6%</b>의 과반 노동조합
+  </p>
+  <div class="notes">
+    <p><b>이 장의 전부입니다.</b> 「대등하다」를 형용사로 말하지 않습니다. 조문의 어순으로 보여줍니다.</p>
+    <p>「앞의 네 장에서 본 조항들은 하늘에서 떨어진 게 아닙니다. 이 두 사람이 마주 앉아서 쓴 겁니다.
+    기관 안에서 원장과 같은 자리에 같은 자격으로 앉는 조직은 노동조합뿐입니다.」</p>
+    <p>75.6%는 여기서 한 번만 말하고 다시 꺼내지 않습니다. 조직 자랑으로 들리면 역효과입니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 06-above.html ══ -->
+<!-- ══ Ⅱ-2 무엇보다 위에 ══ -->
+<section class="slide" data-trans="scale" data-ch="Ⅱ. 마주 앉는 자리" data-title="무엇보다 위에">
+  <p class="eyebrow rise">Ⅱ-2<span class="sep">·</span>협약의 효력</p>
+  <h2 class="title mid rise" style="--d:100ms">이 협약은 취업규칙·규정·근로계약에 우선합니다</h2>
+  <blockquote class="q rise" style="--d:220ms">
+    이 협약에 정한 기준은 근로기준법, 취업규칙과 제 규정, 근로계약 등에 <b>우선</b>하며,
+    그중 협약 기준에 미달하거나 상반되는 일체의 사항은 <b>무효</b>로 하고,
+    무효가 된 부분은 이 협약이 정한 기준에 따른다.
+    <cite>단체협약 제2조⁠(협약의 우선)</cite>
+  </blockquote>
+  <ul class="gj">
+    <li>해석이나 이행 방법에 다툼이 생기면 일방이 임의로 해석할 수 없고, 상호 협의하여
+      조정하되 <b>조합원에게 유리하게 해석하여야 한다</b> — 제111조</li>
+    <li>노동조합의 동의 없이 <b>기존 노동조건을 저하시킬 수 없다</b> — 제3조</li>
+  </ul>
+  <div class="notes">
+    <p>신입에게 가장 실감 나는 문장입니다. 「여러분이 서명한 근로계약서에 뭐가 적혀 있든,
+    이 협약보다 못하면 그 부분은 무효입니다. 그리고 무효가 된 자리는 협약 기준으로 채워집니다.」</p>
+    <p>제111조는 계약서에서 보기 드문 조항입니다. 「애매하면 조합원에게 유리하게 읽는다」를
+    회사가 서명했다는 사실 자체가 교섭력의 증거입니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 07-consent.html ══ -->
+<!-- ══ Ⅱ-3 혼자 못 바꾸는 것 ══ -->
+<section class="slide" data-ch="Ⅱ. 마주 앉는 자리" data-title="혼자 못 바꾸는 것">
+  <p class="eyebrow rise">Ⅱ-3<span class="sep">·</span>동의·합의가 필요한 사항</p>
+  <h2 class="title mid rise" style="--d:100ms">회사가 혼자 못 바꾸는 것들</h2>
+  <table class="rise" style="--d:220ms">
+    <thead><tr><th>바꾸려는 것</th><th>근거</th><th class="n">필요한 절차</th></tr></thead>
+    <tbody>
+      <tr><td>인사평가 제도와 평가 문항의 설계·변경</td><td>제27조제1항</td><td class="n">조합 사전 <b>동의</b></td></tr>
+      <tr><td>임금 관련 규정·제도의 변경</td><td>제44조제5항</td><td class="n">조합 사전 <b>합의</b></td></tr>
+      <tr><td>근로조건 관련 규정을 불리하게 개정</td><td>제6조</td><td class="n">과반수 노조 <b>합의</b></td></tr>
+      <tr><td>출퇴근·휴게 시간의 변경</td><td>제52조제2항</td><td class="n">10일 전 통보 + <b>합의</b></td></tr>
+      <tr><td>감시장비 설치</td><td>제106조제2항</td><td class="n">조합 사전 <b>합의</b></td></tr>
+      <tr class="hl"><td>분할·합병·양도로 고용변동이 따르는 결정</td><td>제43조</td><td class="n">90일 전 통보 + <b>합의</b></td></tr>
+    </tbody>
+  </table>
+  <p class="micro rise" style="--d:360ms">
+    고용안정위원회는 <b>노사 동수</b>로 구성한다 — 제40조 ·
+    감시장비는 화장실·휴게실 등에 설치할 수 없다 — 제106조제4항
+  </p>
+  <div class="notes">
+    <p><b>표를 읽지 않습니다.</b> 「여섯 줄인데, 공통점이 보이실 겁니다. 동의, 합의, 통보.
+    회사 혼자 결정할 수 없다는 뜻입니다.」</p>
+    <p>그리고 <b>마지막 줄만 손으로 짚습니다.</b> 「제일 아래 줄을 봐 주십시오.
+    지금 진행 중인 일이 정확히 여기에 해당합니다. 뒤에서 다시 말씀드리겠습니다.」
+    — Ⅳ장 통합을 여기서 예고해 둡니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 08-only-union.html ══ -->
+<!-- ══ Ⅱ-4 노조에만 있는 9개 ══ -->
+<section class="slide" data-ch="Ⅱ. 마주 앉는 자리" data-title="노조에만 있는 9개">
+  <p class="eyebrow rise">Ⅱ-4<span class="sep">·</span>노사협의회와 무엇이 다른가</p>
+  <h2 class="title mid rise" style="--d:100ms">노사협의회에는 없는 권한 9개</h2>
+  <div class="cols c3 rise" style="--d:240ms">
+    <div>
+      <ul class="gj">
+        <li>취업규칙 변경 협의·동의권</li>
+        <li>유연근로시간제도 동의권</li>
+        <li>정리해고 사전협의권</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="gj">
+        <li>산업안전보건법상 동의·협의·입회권</li>
+        <li>퇴직급여제도 설정·변경 동의권</li>
+        <li>파견노동자 사용 전 협의권</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="gj">
+        <li>단체협약 체결권</li>
+        <li>단체교섭 요구권</li>
+        <li>쟁의행위권</li>
+      </ul>
+    </div>
+  </div>
+  <p class="cap rise" style="--d:400ms">
+    이 아홉 가지는 <b>과반수 노동조합에만</b> 주어집니다.<br class="wide">
+    노사협의회에는 없습니다.
+  </p>
+  <div class="notes">
+    <p>아홉 개를 나열만 하고 넘깁니다. 개별 설명은 하지 않습니다.
+    「두 조직이 비슷해 보이는데, 법이 주는 권한이 다릅니다」가 목적입니다.</p>
+    <p><b>쟁의행위권은 강조하지 않습니다.</b> 목록에 있으니 빼지는 않되, 굳이 짚지 않습니다.
+    신입이 노조에 대해 갖는 첫 이미지를 다시 불러오는 단어입니다.</p>
+    <p>대신 「취업규칙 변경 동의권」을 짚습니다. 「여러분 근로조건이 담긴 문서를
+    회사가 혼자 못 바꾸는 이유가 이 첫 줄입니다.」</p>
+  </div>
+</section>
+
+
+<!-- ══ 09-three-orgs.html ══ -->
+<!-- ══ Ⅱ-5 세 조직의 차이 ══ -->
+<section class="slide" data-ch="Ⅱ. 마주 앉는 자리" data-title="세 조직의 차이">
+  <p class="eyebrow rise">Ⅱ-5<span class="sep">·</span>이름이 비슷한 세 조직</p>
+  <h2 class="title mid rise" style="--d:100ms">성격이 다른 세 조직입니다</h2>
+  <table class="rise" style="--d:220ms">
+    <thead><tr><th></th><th>노동조합</th><th>노사협의회</th><th>상조회</th></tr></thead>
+    <tbody>
+      <tr><td>근거</td><td>헌법 근로3권 · 노동조합법</td><td>근로자참여법</td><td>상조회 회칙</td></tr>
+      <tr><td>주체</td><td>노동자 단체</td><td>노사 동수 협의체</td><td>임직원 모임</td></tr>
+      <tr><td>비용</td><td>조합비 공제</td><td>기관 예산</td><td>상조비 공제</td></tr>
+      <tr><td>목적</td><td>근로조건·지위 향상</td><td>노사 공동이해 협의</td><td>직원·가족의 상조</td></tr>
+      <tr class="hl"><td>근로조건</td><td>관계됨</td><td>관계됨</td><td><b>무관계</b></td></tr>
+    </tbody>
+  </table>
+  <p class="cap rise" style="--d:360ms">
+    노동조합과 상조회는 <span class="chip ac">의무가입 대상이 아닙니다</span>.<br class="wide">
+    노사협의회는 법에 따라 노사 동수로 <b>반드시 구성</b>해야 합니다.
+  </p>
+  <p class="micro rise" style="--d:480ms">
+    노사협의회에만 있는 의결권 — 고충처리 협의, <b>사내근로복지기금·복지시설 설치</b>
+  </p>
+  <div class="notes">
+    <p><b>「의무가입 대상이 아닙니다」를 위원장이 먼저 말합니다.</b>
+    이 한 줄이 남은 열다섯 장의 거부감을 낮춥니다. 권유하는 사람이 먼저
+    「안 하셔도 됩니다」라고 하면 듣는 쪽이 방어를 내려놓습니다.</p>
+    <p>노사협의회는 「가입」 개념이 없다는 점을 분명히 합니다. 전 직원이 대상이고,
+    저는 그 근로자대표를 맡고 있습니다. 뒤의 「천원의 행복」이 노사협의회 사업이라는
+    연결도 여기서 미리 깔아 둡니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 10-wage.html ══ -->
+<!-- ══ Ⅲ-1 465,000원 ══ -->
+<section class="slide" data-trans="wipe" data-ch="Ⅲ. 그래서 바뀐 것" data-title="465,000원">
+  <p class="eyebrow rise">Ⅲ-1<span class="sep">·</span>2026년 임금협약</p>
+  <h2 class="title mid rise" style="--d:100ms">전 직급 기본연봉을 정액으로 올렸습니다</h2>
+  <p class="stat ac materialize" style="--d:220ms">465,000<span class="u">원</span></p>
+  <p class="statlab rise" style="--d:340ms">직급에 관계없이 같은 금액 · 여기에 추가 인상분이 더해진다</p>
+  <ul class="gj rise" style="--d:440ms">
+    <li>공기업·준정부기관 지침에 따른 <b>총액인건비 3%</b> 범위에서 배분을 설계했다</li>
+    <li>호봉 간 차등을 조정했다 — 5급 3⁠~⁠15호봉 543,480원 → <b>554,000원</b>(상향폭이 가장 큰 구간)</li>
+    <li>공무직 호봉체계를 <b>6단계⁠(단계별 2⁠~⁠4년)⁠에서 30단계⁠(매년)⁠로</b> 바꾸고,
+      16년차부터 추가 1%를 상향했다</li>
+  </ul>
+  <div class="notes">
+    <p><b>정률이 아니라 정액이라는 점이 설계의 핵심입니다.</b> 「3%를 그냥 나누면 연봉이 높은 쪽이
+    금액으로 더 많이 받습니다. 그래서 전 직급 같은 금액으로 깔고, 남는 재원을 낮은 호봉 구간에
+    더 얹었습니다. 여러분이 들어온 구간이 상향폭이 가장 큰 구간입니다.」</p>
+    <p>공무직 호봉체계는 신입 관심사가 아니지만, 「우리만 챙긴 게 아니다」를 보여주는 항목이라
+    남겨 둡니다. 길게 설명하지 않습니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 11-systems.html ══ -->
+<!-- ══ Ⅲ-2 일하는 규칙 ══ -->
+<section class="slide" data-ch="Ⅲ. 그래서 바뀐 것" data-title="일하는 규칙이 바뀌었습니다">
+  <p class="eyebrow rise">Ⅲ-2<span class="sep">·</span>노사협의회 협의 결과</p>
+  <h2 class="title mid rise" style="--d:100ms">일하는 규칙이 바뀌었습니다</h2>
+  <div class="diff rise" style="--d:220ms">
+    <div class="now">
+      <p class="lbl">종전 — 결재선</p>
+      <p>기안 5 · <b>검토 3</b> · 결재 2<br>책임이 검토 단계에서 흐려진다</p>
+    </div>
+    <div class="new">
+      <p class="lbl">개선 — 결재선</p>
+      <p>기안 5 · <b>결재 5</b><br>결재자의 책임 범위를 그만큼 넓혔다</p>
+    </div>
+  </div>
+  <ul class="gj rise" style="--d:360ms">
+    <li><b>전보관리 규칙</b>을 제정했다 — 전보에 형평성·예측성·보장성 기준을 세웠다</li>
+    <li><b>장기재직휴가</b> 도입을 합의 완료했다</li>
+    <li>연금사업자를 추가 지정했다 — 리조트 할인 등 부가 혜택이 따라온다</li>
+  </ul>
+  <p class="micro rise" style="--d:460ms">
+    조직문화 개선 캠페인 4차례 · 커피차 3회 — 기관 예산으로 진행
+  </p>
+  <div class="notes">
+    <p><b>이 장의 주인공은 결재선입니다.</b> 신입이 내일 당장 겪는 화면입니다.
+    「기안 올리고 결재 떨어지기까지 단계가 줄었다고 느끼실 겁니다. 그게 저희가 협의한 결과입니다.」</p>
+    <p>검토를 없앤 게 아니라 <b>책임을 결재로 옮긴 것</b>임을 정확히 말합니다.
+    「검토 도장만 찍고 책임은 안 지는 구조를 없앤 겁니다.」</p>
+    <p>전보관리 규칙은 뒤의 설문⁠(전보 5.68점)⁠과 짝입니다. 「규칙을 만들었는데 아직 점수가 낮습니다.
+    그래서 더 할 일이 있습니다」로 Ⅲ-5에 연결합니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 12-use-now.html ══ -->
+<!-- ══ Ⅲ-3 내일부터 쓰는 조항 ══ -->
+<section class="slide" data-ch="Ⅲ. 그래서 바뀐 것" data-title="내일부터 쓰는 조항">
+  <p class="eyebrow rise">Ⅲ-3<span class="sep">·</span>협약이 만든 제도</p>
+  <h2 class="title mid rise" style="--d:100ms">내일부터 쓰는 조항들입니다</h2>
+  <div class="cols c2 rise" style="--d:220ms">
+    <div>
+      <ul class="gj">
+        <li>초과근로는 <b>본인의 동의</b>를 받아야 하고, 거부를 이유로 어떠한 불이익도 줄 수 없다 — 제53조</li>
+        <li><b>조기퇴근제</b> — 주 1회, 회당 2시간 — 제55조</li>
+        <li><b>10일 이상 연속 연차</b>를 1개월 이전에 신청하면, 사업 운영에 막대한 지장이
+          있는 경우가 아니라면 <b>승인하여야 한다</b> — 제57조</li>
+        <li>공가 9종 — 투표 · <b>승진시험 응시</b> · 건강검진 · 헌혈 · 예방접종 — 제59조</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="gj">
+        <li>배우자 출산휴가 <b>10일</b>(다태아 15일), 90일 안에 2회 분할 — 제64조</li>
+        <li>5세 이하 자녀가 있으면 <b>24개월 범위에서 1일 최대 2시간</b> 육아시간 — 제67조</li>
+        <li>휴직 — 자기개발 1년 · 국내 대학원 2년 · <b>국외 대학원 3년</b>(2년 연장 가능) — 제29⁠~⁠31조</li>
+        <li>연 1회 건강검진 <b>비용은 회사 부담</b> — 제72조</li>
+      </ul>
+    </div>
+  </div>
+  <p class="micro rise" style="--d:380ms">
+    연장근로 50% 가산⁠(06⁠~⁠09시, 18⁠~⁠22시) · 야간 50%(22⁠~⁠06시) · 휴일 8시간 초과분 100% — 제54조 ·
+    난임치료 유급휴가 — 제68조
+  </p>
+  <div class="notes">
+    <p><b>여덟 개를 다 읽지 않습니다.</b> 세 개만 짚고 넘깁니다.</p>
+    <p>① <b>조기퇴근제</b> — 「주에 한 번 두 시간 먼저 갑니다. 신청하시면 됩니다.」<br>
+    ② <b>10일 연속 연차</b> — 「신청하면 승인하여야 한다, 입니다. 해줄 수도 있다가 아닙니다.」<br>
+    ③ <b>국외 대학원 3년</b> — 「5년 지나면 쓸 수 있습니다. 지금은 먼 얘기지만 알아두십시오.」</p>
+    <p>나머지는 「자세한 건 협약 전문이 조합 게시판에 있습니다」로 넘깁니다.
+    질문이 나오면 그때 답합니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 13-in-the-room.html ══ -->
+<!-- ══ Ⅲ-4 자리에 사람을 넣는 일 ══ -->
+<section class="slide" data-ch="Ⅲ. 그래서 바뀐 것" data-title="자리에 사람을 넣는 일">
+  <p class="eyebrow rise">Ⅲ-4<span class="sep">·</span>경영참여와 대외활동</p>
+  <h2 class="title mid rise" style="--d:100ms">결정하는 자리마다 사람을 넣어 두었습니다</h2>
+  <ul class="gj rise" style="--d:220ms">
+    <li>기관 안 — 노사협의회 <b>근로자대표 구성</b>, <b>이사회와 인사위원회 참여</b>,
+      각종 위원회에 노동조합 추천
+      <ul>
+        <li>회사는 채용·승진·이동 등 인사와 상벌, 직제 개편, 이사회 일시·안건·결과를
+          조합에 통지해야 한다 — 제20조</li>
+        <li>조합이 요청하면 임금·근로조건·인사·재무제표 자료를 제공해야 한다 — 제19조</li>
+      </ul>
+    </li>
+    <li>기관 밖 — 중소벤처기업부 창업정책국·정책보좌관 면담 <b>3회</b>,
+      국회 산자중기위 의원실 면담 <b>2회</b>, 한국노총 공공연맹 활동
+      <ul><li>중소벤처기업부 산하기관 노조협의회⁠(중소노협) 공동대응</li></ul>
+    </li>
+  </ul>
+  <p class="micro rise" style="--d:380ms">
+    2025년 기준 · 면담 일자는 정기총회 보고에 기록되어 있다
+  </p>
+  <div class="notes">
+    <p><b>날짜를 읽지 않습니다.</b> 건수만 말합니다. 날짜를 읽으면 30초가 날아가고
+    신입에게 남는 게 없습니다.</p>
+    <p>이 장의 요지는 하나입니다. <b>「우리 처우를 정하는 곳이 원내에만 있지 않다.」</b>
+    「우리 예산과 정원은 중기부가, 그 위는 기획재정부가 정합니다. 그래서 저희가 부처와
+    국회를 찾아갑니다. 직원 개인이 갈 수 있는 자리가 아닙니다.」</p>
+    <p>이 문장이 다음 장⁠(통합)⁠의 전제가 됩니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 14-survey.html ══ -->
+<!-- ══ Ⅲ-5 8.38 대 5.68 ══ -->
+<section class="slide" data-trans="blur" data-ch="Ⅲ. 그래서 바뀐 것" data-title="8.38 대 5.68">
+  <p class="eyebrow rise">Ⅲ-5<span class="sep">·</span>2026년 조합원 설문</p>
+  <h2 class="title mid rise" style="--d:100ms">아직 낮은 다섯 개가 할 일 목록입니다</h2>
+  <div class="fig rise" style="--d:240ms">
+    <svg viewBox="0 0 860 270" role="img" aria-label="2026년 조합원 설문 항목별 평균 점수. 노동조합 활동 만족도 8.38점, 근로환경 개선 6.44점, 승진 5.86점, 인사평가 5.75점, 전보 5.68점, 중소벤처기업부 3.76점. 10점 만점.">
+      <line x1="200" y1="0" x2="200" y2="244" stroke="var(--hair)" stroke-width="1"/>
+      <line x1="480" y1="0" x2="480" y2="244" stroke="var(--hair-2)" stroke-width="1" stroke-dasharray="3 5"/>
+      <text x="480" y="264" fill="var(--ink-3)" font-size="15" text-anchor="middle">5점</text>
+
+      <text x="190" y="27" fill="var(--ink)" font-size="18" text-anchor="end" font-weight="700">노동조합 활동</text>
+      <rect x="200" y="8" width="469" height="26" fill="var(--series-hi)"/>
+      <text x="681" y="27" fill="var(--ink)" font-size="18" font-weight="700">8.38</text>
+
+      <text x="190" y="69" fill="var(--ink-2)" font-size="18" text-anchor="end">근로환경 개선</text>
+      <rect x="200" y="50" width="361" height="26" fill="var(--series-now)"/>
+      <text x="573" y="69" fill="var(--ink-2)" font-size="18">6.44</text>
+
+      <text x="190" y="111" fill="var(--ink-2)" font-size="18" text-anchor="end">승진</text>
+      <rect x="200" y="92" width="328" height="26" fill="var(--series-now)"/>
+      <text x="540" y="111" fill="var(--ink-2)" font-size="18">5.86</text>
+
+      <text x="190" y="153" fill="var(--ink-2)" font-size="18" text-anchor="end">인사평가</text>
+      <rect x="200" y="134" width="322" height="26" fill="var(--series-now)"/>
+      <text x="534" y="153" fill="var(--ink-2)" font-size="18">5.75</text>
+
+      <text x="190" y="195" fill="var(--ink-2)" font-size="18" text-anchor="end">전보</text>
+      <rect x="200" y="176" width="318" height="26" fill="var(--series-now)"/>
+      <text x="530" y="195" fill="var(--ink-2)" font-size="18">5.68</text>
+
+      <text x="190" y="237" fill="var(--ink-2)" font-size="18" text-anchor="end">중소벤처기업부</text>
+      <rect x="200" y="218" width="211" height="26" fill="var(--series-now)"/>
+      <text x="423" y="237" fill="var(--ink-2)" font-size="18">3.76</text>
+    </svg>
+    <div class="legend">
+      <span><i style="background:var(--series-hi)"></i>노동조합 활동 만족도</span>
+      <span><i style="background:var(--series-now)"></i>회사 제도와 환경에 대한 평가</span>
+      <span>10점 만점 · 점수가 높을수록 긍정</span>
+    </div>
+  </div>
+  <p class="micro rise" style="--d:420ms">
+    2026년 정기설문 · 권리조합원 124명 중 <b>109명 응답⁠(87.9%)</b> · 익명 · 조사기간 5. 6.~5. 18.
+  </p>
+  <div class="notes">
+    <p><b>이 장의 결론은 자랑이 아닙니다.</b> 「8.38이 높다」로 읽으면 실패입니다.</p>
+    <p>읽는 순서 — 「맨 위가 저희 활동에 대한 평가입니다. 8.38입니다. 감사합니다.
+    <b>그런데 중요한 건 아래 다섯 개입니다.</b> 전보 5.68, 인사평가 5.75, 승진 5.86.
+    회사 인사제도에 대한 우리 조합원들의 평가가 이 정도입니다. 아까 전보관리 규칙을
+    만들었다고 말씀드렸는데, 그래도 아직 5.68입니다.」</p>
+    <p>맺음 — 「저희가 잘해서 8.38인 게 아니고, <b>고칠 게 많아서 8.38</b>입니다.
+    이 다섯 줄을 올리는 게 저희 일이고, 여러분이 들어오시면 이 표에 여러분 점수가 들어갑니다.」</p>
+    <p>맨 아래 중기부 3.76은 설명하지 않습니다. 질문이 나오면 「우리 예산과 정원을 정하는
+    부처입니다」까지만.</p>
+  </div>
+</section>
+
+
+<!-- ══ 15-merger.html ══ -->
+<!-- ══ Ⅳ-1 통합, 사실만 ══ -->
+<section class="slide" data-trans="wipe" data-ch="Ⅳ. 지금 진행 중" data-title="통합, 사실만">
+  <p class="eyebrow rise">Ⅳ-1<span class="sep">·</span>한국창업보육협회 통합</p>
+  <h2 class="title mid rise" style="--d:100ms">지금 통합이 진행되고 있습니다</h2>
+  <ul class="gj rise" style="--d:220ms">
+    <li>한국창업보육협회를 <b>창업진흥원으로 통합</b>하는 방안이 추진되고 있다</li>
+    <li>창업진흥원은 <b>존속기관</b>이다 — 우리 기관이 없어지는 방식이 아니다</li>
+    <li>외부 법률자문 결과, 상법상 합병은 불가하여
+      <b>사업 양수 + 협회 해산·청산</b> 방식이 검토되고 있다</li>
+  </ul>
+  <p class="cap rise" style="--d:380ms">
+    방식과 일정은 아직 확정 단계가 아닙니다.<br class="wide">
+    이 화면에는
+    <b>확정된 사실만</b> 적었습니다.
+  </p>
+  <div class="notes">
+    <p><b>불안을 팔지 않습니다.</b> 신입 첫날에 「우리 기관이 위험하다」를 심으면
+    남는 건 이직 검색입니다. 「존속기관이다」를 분명히 말합니다.</p>
+    <p><b>내부 쟁점은 입으로도 말하지 않습니다.</b> 정원 잠식, 직급 대응, 승진 경로,
+    부처 간담회 내용 — 전부 꺼내지 않습니다.</p>
+    <p>질문이 나오면 — 「자세한 진행 상황은 <b>조합원께 따로 공유</b>하고 있습니다.
+    오늘은 여기까지만 말씀드리겠습니다.」 이 답이 다음 장의 설득력을 만듭니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 16-who-sits.html ══ -->
+<!-- ══ Ⅳ-2 누가 앉는가 ══ -->
+<section class="slide" data-trans="scale" data-ch="Ⅳ. 지금 진행 중" data-title="누가 앉는가">
+  <p class="eyebrow rise">Ⅳ-2<span class="sep">·</span>결정하는 자리</p>
+  <h2 class="title mid rise" style="--d:100ms">직원 처우는 노사가 협의해서 정합니다</h2>
+  <ul class="gj rise" style="--d:200ms">
+    <li>정부는 승계 인력의 처우와 직급에 관한 <b>통일된 지침을 내리지 않았다</b> —
+      즉 기관별 <b>노사 협의 사항</b>이다</li>
+    <li>고용변동이 따르는 결정은 <b>90일 전 통보</b>와 <b>노동조합과의 합의</b>가 필요하다 — 제43조제1항</li>
+    <li>고용안정위원회는 <b>노사 동수</b>로 구성한다 — 제40조</li>
+  </ul>
+  <blockquote class="q rise" style="--d:340ms">
+    회사는 분할, 매각, 합병, 영업의 양도, 분사, 아웃소싱 할 경우 조합원의 고용, 근로조건 및
+    근속 연수 승계, <b>단체협약 및 노동조합 승계에 관하여 책임을 진다.</b>
+    <cite>단체협약 제43조⁠(회사의 분할·합병·양도) 제2항</cite>
+  </blockquote>
+  <div class="box warn rise" style="--d:480ms">
+    <p class="h">조항은 있는데, 아무도 다루지 않았습니다</p>
+    <p>통합 이후 단체협약을 어떻게 승계하느냐는 <b>정부 추진방안에도, 외부 법률자문
+    의견에도 들어 있지 않습니다.</b><br class="wide">
+    협약에 회사의 책임으로 적혀 있는 이 조항을
+    실제로 관철시킬 주체는 노동조합뿐입니다.</p>
+  </div>
+  <div class="notes">
+    <p><b>이 슬라이드가 「왜 지금 가입인가」의 답입니다.</b></p>
+    <p>순서 — 첫 줄에서 멈춥니다. 「정부가 정해서 내려보내면 우리가 할 게 없습니다.
+    그런데 안 내려보냅니다. 기관에서 노사가 알아서 정하라는 겁니다.
+    <b>그러면 누가 앉습니까.</b>」</p>
+    <p>그다음 인용. 「우리 협약 제43조제2항입니다. 통합할 때 <b>고용, 근로조건,
+    근속 연수, 그리고 단체협약과 노동조합까지</b> 승계할 책임이 회사에 있다고
+    2023년에 서명해 놨습니다. 여러분이 오기 전에 받아 둔 조항입니다.」</p>
+    <p>그리고 경고 상자. 「그런데 정부 추진방안에도, 법무법인 자문 의견에도
+    단체협약 승계 얘기가 <b>한 줄도 없습니다.</b> 조항은 있는데 아무도 안 보고 있습니다.
+    이걸 들고 가서 지키게 만드는 게 저희 일입니다.」</p>
+    <p><b>공포가 아니라 공백을 가리킵니다.</b> 「위험하다」가 아니라
+    「우리가 받아 둔 게 있고, 지금 그게 지켜지는지 지켜보고 있다」입니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 17-fee.html ══ -->
+<!-- ══ Ⅴ-1 월 기본급 1.2% ══ -->
+<section class="slide" data-trans="wipe" data-ch="Ⅴ. 비용과 혜택" data-title="월 기본급 1.2%">
+  <p class="eyebrow rise">Ⅴ-1<span class="sep">·</span>먼저 비용부터</p>
+  <h2 class="title mid rise" style="--d:100ms">조합비는 월 기본급의 1.2%입니다</h2>
+  <ul class="gj rise" style="--d:220ms">
+    <li>매월 급여일에 공제되고, 회사가 조합 계좌로 인도한다 — 제17조</li>
+    <li>자격정지나 <b>육아휴직</b>처럼 회사로부터 급여를 받지 않는 기간에는
+      <b>조합비 납부 의무가 없다</b></li>
+  </ul>
+  <p class="cap rise" style="--d:380ms">
+    숫자만 보면 부담으로 보입니다.<br class="wide">
+    그래서 실제로 얼마인지
+    <b>계산해서 보여드리겠습니다.</b>
+  </p>
+  <div class="notes">
+    <p><b>숨기지 않고 먼저 말합니다.</b> 혜택부터 깔고 비용을 뒤에 붙이면
+    「팔러 왔구나」로 읽힙니다.</p>
+    <p><b>그리고 여기서 끊지 않습니다.</b> 1.2%를 말한 즉시 다음 장으로 넘깁니다.
+    이 장에 머물면 각자 머릿속으로 자기 기본급에 1.2%를 곱하기 시작하고,
+    그 숫자가 거부감으로 자리를 잡습니다.</p>
+    <p>육아휴직 면제는 반드시 말합니다. 신입 연령대에서 실제로 걸리는 항목입니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 18-real-cost.html ══ -->
+<!-- ══ Ⅴ-2 월 7,230원 ══ -->
+<section class="slide" data-trans="blur" data-ch="Ⅴ. 비용과 혜택" data-title="월 7,230원">
+  <p class="eyebrow rise">Ⅴ-2<span class="sep">·</span>5급 기준 실제 부담</p>
+  <h2 class="title mid rise" style="--d:100ms">연 86,800원 — 월 7,230원입니다</h2>
+  <div class="fig rise" style="--d:240ms">
+    <svg viewBox="0 0 860 344" role="img" aria-label="5급 조합원 기준 연간 조합비 실질 부담 계산. 납부한 조합비 408,000원에서 받은 복지비 260,000원과 세액공제 61,200원을 빼면 실제 부담은 86,800원이다.">
+      <line x1="40" y1="280" x2="800" y2="280" stroke="var(--hair)" stroke-width="1"/>
+
+      <line x1="190" y1="70" x2="250" y2="70" stroke="var(--ink-3)" stroke-width="1" stroke-dasharray="4 4"/>
+      <line x1="380" y1="204" x2="440" y2="204" stroke="var(--ink-3)" stroke-width="1" stroke-dasharray="4 4"/>
+      <line x1="570" y1="235" x2="630" y2="235" stroke="var(--ink-3)" stroke-width="1" stroke-dasharray="4 4"/>
+
+      <rect x="60" y="70" width="130" height="210" fill="var(--series-now)"/>
+      <text x="125" y="58" fill="var(--ink)" font-size="21" font-weight="700" text-anchor="middle">408,000</text>
+      <text x="125" y="306" fill="var(--ink)" font-size="17" text-anchor="middle">납부한 조합비</text>
+      <text x="125" y="330" fill="var(--ink-3)" font-size="15" text-anchor="middle">월 34,000원 × 12개월</text>
+
+      <rect x="250" y="70" width="130" height="134" fill="var(--series-new)"/>
+      <text x="315" y="58" fill="var(--ink)" font-size="21" font-weight="700" text-anchor="middle">−260,000</text>
+      <text x="315" y="306" fill="var(--ink)" font-size="17" text-anchor="middle">받은 복지비</text>
+      <text x="315" y="330" fill="var(--ink-3)" font-size="15" text-anchor="middle">네이버페이 5만원 × 5회 + 1만원</text>
+
+      <rect x="440" y="204" width="130" height="31" fill="var(--series-new)"/>
+      <text x="505" y="192" fill="var(--ink)" font-size="21" font-weight="700" text-anchor="middle">−61,200</text>
+      <text x="505" y="306" fill="var(--ink)" font-size="17" text-anchor="middle">세액공제</text>
+      <text x="505" y="330" fill="var(--ink-3)" font-size="15" text-anchor="middle">납부액의 15%</text>
+
+      <rect x="630" y="235" width="130" height="45" fill="var(--series-hi)"/>
+      <text x="695" y="223" fill="var(--ink)" font-size="21" font-weight="700" text-anchor="middle">86,800</text>
+      <text x="695" y="306" fill="var(--ink)" font-size="17" font-weight="700" text-anchor="middle">실제 부담</text>
+      <text x="695" y="330" fill="var(--ink-3)" font-size="15" text-anchor="middle">연간 · 월 7,230원</text>
+    </svg>
+    <div class="legend">
+      <span><i style="background:var(--series-now)"></i>납부</span>
+      <span><i style="background:var(--series-new)"></i>되돌아오는 금액</span>
+      <span><i style="background:var(--series-hi)"></i>실제 부담</span>
+    </div>
+  </div>
+  <p class="micro rise" style="--d:420ms">
+    5급 조합원 평균 월 납입액 34,000원 기준 · 복지비는 설·추석·노동절·조합설립기념·크리스마스
+    네이버페이 각 5만원과 설문참여 1만원 · 세액공제는 연말정산 시 조합비의 15%
+  </p>
+  <div class="notes">
+    <p><b>커피 두 잔 비유는 쓰지 않습니다.</b> 값싸 보이게 만드는 화술은 신입이 바로 알아챕니다.
+    산식을 그대로 보여주고 계산 결과만 말합니다.</p>
+    <p>읽는 순서 — 「1년에 408,000원 냅니다. 여기서 명절·노동절 같은 기념일에
+    네이버페이로 5만원씩 다섯 번, 설문 참여 1만원, 합쳐서 26만원이 돌아옵니다.
+    그리고 조합비는 세액공제 대상이라 연말정산에서 61,200원을 돌려받습니다.
+    <b>남는 게 86,800원.</b> 나눠보면 월 7,230원입니다.」</p>
+    <p>덧붙임 — 「이 계산에는 뒤에 보여드릴 제휴 할인이 안 들어가 있습니다.
+    AI 구독 하나만 써도 이 금액은 넘어갑니다.」 — Ⅴ-4로 연결.</p>
+  </div>
+</section>
+
+
+<!-- ══ 19-benefits.html ══ -->
+<!-- ══ Ⅴ-3 혜택 6개 ══ -->
+<section class="slide" data-ch="Ⅴ. 비용과 혜택" data-title="혜택 6개">
+  <p class="eyebrow rise">Ⅴ-3<span class="sep">·</span>2026년 조합원 혜택</p>
+  <h2 class="title mid rise" style="--d:100ms">가입하면 오늘부터 쓰는 것들</h2>
+  <div class="cols c3 rise" style="--d:240ms">
+    <div>
+      <ul class="gj">
+        <li><b>한국노총 중앙법률원</b> — 법률·노무 무료 상담.<br class="wide">
+    변호사·노무사 선임 시 최혜 조건</li>
+        <li>삼성전자·LG전자 <b>패밀리몰·복지몰</b> 제휴가 구매</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="gj">
+        <li>제휴 할인 — <b>정상가의 10%~75%</b>
+          <ul><li>아르떼뮤지엄 · 네일우아 · T스테이션 · AI 서비스</li></ul>
+        </li>
+        <li><b>효담상조</b> — 장례 절차와 서비스를 후불제로</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="gj">
+        <li>기념일마다 <b>네이버페이</b> 선물 · 경조사 화환</li>
+        <li>조합비의 <b>15%를 세액공제</b>로 환급</li>
+      </ul>
+    </div>
+  </div>
+  <p class="cap rise" style="--d:400ms">
+    아르떼뮤지엄은 <span class="chip ac">정상가 20% 할인 · 본인 포함 동반 4인까지</span>
+  </p>
+  <p class="micro rise" style="--d:500ms">
+    제휴처 8곳 — 삼성전자 · LG전자 · 효담상조 · 한국타이어 · 네일우아 · 아르떼뮤지엄⁠(전국) ·
+    카시아리조트 · T스테이션 · 2025년 기념일 <b>7회 41,750,000원</b> 지급, 경조사 화환 7회 발송
+  </p>
+  <div class="notes">
+    <p><b>①을 먼저 말합니다.</b> 신입에게 제일 값이 나가는 건 할인이 아니라
+    <b>무료 법률·노무 상담</b>입니다.</p>
+    <p>「근로계약이든 개인 문제든, 변호사 상담 한 번 받으려면 몇십만원입니다.
+    조합원은 한국노총 중앙법률원과 공공연맹 법률원을 무료로 씁니다.
+    선임까지 가면 최혜 조건으로 연결해 드립니다.」</p>
+    <p>아르떼뮤지엄은 가족 단위로 쓸 수 있어서 반응이 좋습니다. 동반 4인을 짚습니다.</p>
+    <p>41,750,000원은 「조합비가 어디로 가나」의 답입니다. 「작년에 선물로만
+    4,175만원이 나갔습니다. 회비를 쌓아두는 조직이 아닙니다.」</p>
+  </div>
+</section>
+
+
+<!-- ══ 20-ai-english.html ══ -->
+<!-- ══ Ⅴ-4 AI와 영어 ══ -->
+<section class="slide" data-ch="Ⅴ. 비용과 혜택" data-title="AI와 영어">
+  <p class="eyebrow rise">Ⅴ-4<span class="sep">·</span>조합원 전용 단체 단가</p>
+  <h2 class="title mid rise" style="--d:100ms">조합이 단체 단가로 삽니다</h2>
+  <div class="cols c3 rise" style="--d:240ms">
+    <div>
+      <ul class="gj">
+        <li><b>Gemini</b> — Google
+          <ul><li>노트북LM · 구글 드라이브 2TB</li></ul>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul class="gj">
+        <li><b>Claude</b> — Anthropic
+          <ul><li>Pro 대비 1.25배 사용량 · cowork</li></ul>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul class="gj">
+        <li><b>ChatGPT</b> — OpenAI
+          <ul><li>GPT-5.5 무제한 메시지 · codex</li></ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <p class="cap rise" style="--d:380ms">
+    공식 비영리 요금으로 <b>최대 75% 할인</b> — 필요한 것만 골라
+    <span class="chip ac">연 7만~16만원</span>
+    <span class="micro">개인 정가로는 한 서비스에 연 30만원 이상</span>
+  </p>
+  <div class="box warn rise" style="--d:500ms">
+    <p class="h">신청 전에 읽어 주십시오</p>
+    <ul class="gj">
+      <li>제공 플랜은 구글 워크스페이스 비즈니스 스탠다드 · 클로드 팀 스탠다드 ·
+        ChatGPT 비즈니스입니다</li>
+      <li>조합 <b>탈퇴 또는 퇴사 시 해지</b>될 수 있습니다</li>
+      <li>서비스 제공사 정책에 따라 가격과 조건이 변경될 수 있습니다</li>
+      <li>신청은 <b>조합 계좌 입금 후</b> 게시 안내에 따라 해 주십시오</li>
+    </ul>
+  </div>
+  <p class="micro rise" style="--d:600ms">
+    영어 — 링글 1:1 화상영어와 AI 올인원. 중소노협 기업 맞춤 코드
+    <b>smnojo</b> 입력 시 1년 상시 할인가 적용
+  </p>
+  <div class="notes">
+    <p><b>신입 연령대에 가장 직접적인 카드입니다.</b> 앞 장의 「월 7,230원」과 바로 붙습니다.
+    「이거 하나만 써도 조합비는 회수됩니다.」</p>
+    <p><b>경고 상자를 반드시 읽어 줍니다.</b> 특히 「탈퇴·퇴사 시 해지」와
+    「조합 계좌 입금 후 신청」. 나중에 분쟁이 나는 지점입니다.</p>
+    <p>링글은 <b>할인율을 말하지 않습니다.</b> 제휴 자료에 구체적인 퍼센트가 없습니다.
+    「코드 넣으면 1년 내내 할인가로 삽니다」까지만.</p>
+  </div>
+</section>
+
+
+<!-- ══ 21-thousand.html ══ -->
+<!-- ══ Ⅵ-1 천원의 행복 ══ -->
+<section class="slide" data-trans="wipe" data-ch="Ⅵ. 오늘 하실 일" data-title="천원의 행복">
+  <p class="eyebrow rise">Ⅵ-1<span class="sep">·</span>노사협의회 사업</p>
+  <h2 class="title mid rise" style="--d:100ms">급여 끝자리 몇백 원을 모읍니다</h2>
+  <div class="vs rise" style="--d:240ms">
+    <div class="side">
+      <p class="statlab">이달 실수령액이</p>
+      <p class="lead">3,321,650원이면</p>
+    </div>
+    <div class="mid">→</div>
+    <div class="side b">
+      <p class="statlab">기부액은</p>
+      <p class="stat">1,650<span class="u">원</span></p>
+    </div>
+  </div>
+  <ul class="gj rise" style="--d:400ms">
+    <li><b>노사협의회</b>가 운영하는 임직원 급여기부 프로젝트다 — 노동조합 사업이 아니다</li>
+    <li><b>희망하는 직원에 한하여</b> 매달 실수령액의 만원 미만 우수리를 적립한다</li>
+    <li>2021년부터 <b>28,168,233원</b>을 <b>세종시 아동보호전문기관</b>에 기부했다
+      <ul><li>아동에 대한 가정폭력 예방과 보호, 지원에 쓰인다</li></ul>
+    </li>
+    <li>기부액의 <b>15%는 연말정산에서 세액공제</b>된다</li>
+  </ul>
+  <p class="cap rise" style="--d:520ms">
+    선택입니다.<br class="wide">
+    <b>함께해 주시면 감사합니다.</b>
+  </p>
+  <div class="notes">
+    <p><b>노동조합 사업이 아니라 노사협의회 사업임을 분명히 합니다.</b>
+    「제가 노사협의회 근로자대표도 맡고 있어서 같이 설명드립니다.
+    조합 가입과는 별개입니다.」</p>
+    <p>금액을 먼저 보여줍니다. 「만원 미만이라고 하면 만원 가까운 줄 아시는데,
+    실제로는 <b>천 원대</b>입니다. 급여 끝자리를 잘라서 모으는 겁니다.」</p>
+    <p>2,816만원을 짚습니다. 「이 방식으로 5년 모아서 이만큼 됐습니다.
+    세종시 아동보호전문기관에 갑니다. 가정폭력 피해 아동 지원에 쓰입니다.」</p>
+    <p><b>권유는 한 문장으로 끝냅니다.</b> 압박하지 않습니다.
+    「선택입니다」를 먼저 말하고 「감사합니다」로 닫습니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 22-sangjo.html ══ -->
+<!-- ══ Ⅵ-2 상조회 ══ -->
+<section class="slide" data-ch="Ⅵ. 오늘 하실 일" data-title="상조회">
+  <p class="eyebrow rise">Ⅵ-2<span class="sep">·</span>창업진흥원 상조회</p>
+  <h2 class="title mid rise" style="--d:100ms">상조회 가입은 본인이 정하시면 됩니다</h2>
+  <p class="lead rise" style="--d:200ms">
+    노동조합과 <b>별개 조직</b>이고, <b>근로조건과는 관계가 없습니다.</b><br class="wide">
+    직원과 직원 가족의 경조사를 서로 돕는 모임입니다.
+  </p>
+  <div class="cols c2 rise" style="--d:320ms">
+    <div>
+      <ul class="gj">
+        <li>가입비 <b>100,000원</b> · 월회비 <b>15,000원</b>(4급 이하)
+          <ul><li>2⁠~⁠3급 20,000원 · 1급 이상 25,000원</li></ul>
+        </li>
+        <li>경조금 — 본인·배우자 사망 각 100만원 · 부모·자녀·형제자매 50만원 ·
+          <b>1주일 이상 입원 20만원</b> · 본인 결혼 30만원 · 자녀 출산 20만원</li>
+        <li>재직 10년 <b>14K 금 1돈</b> · 20년 50만원 상품권 · 명절 3만원 상당</li>
+        <li>가족상에는 <b>상조물품과 상조기를 장례식장으로</b> 배송한다</li>
+      </ul>
+    </div>
+    <div>
+      <div class="box warn">
+        <p class="h">가입 시점이 중요합니다</p>
+        <ul class="gj">
+          <li><b>가입하고 회비를 낸 기간에 발생한 사유만</b> 지급됩니다 —
+            회칙 제12조제4항⁠(2025. 6. 2. 신설)
+            <ul><li>나중에 가입해도 <b>소급되지 않습니다</b></li></ul>
+          </li>
+          <li>신규가입자가 아닌 경우, 사유 발생일 <b>3개월 전부터</b> 회원자격이 있어야 합니다 —
+            제12조제3항</li>
+          <li>6개월 이상 회비를 미납하면 회원자격이 부여되지 않습니다 — 제8조제2항</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="micro rise" style="--d:460ms">
+    회칙 제2조 — 임직원의 상호부조와 복지향상을 목적으로 한다 ·
+    경조금 전체 기준은 나눠드린 종이에 있습니다 · 신청은 사유 발생 90일 안에
+  </p>
+  <div class="notes">
+    <p><b>먼저 「별개 조직」을 말합니다.</b> 조합 설명 직후라서, 여기서 분리하지 않으면
+    「노조에 가입하면 돈이 두 군데서 빠지나」로 읽힙니다.</p>
+    <p><b>가입을 권하지 않습니다.</b> 경조금 표를 읽지도 않습니다.
+    「가입비가 10만원 있습니다. 부담이 되면 안 하셔도 됩니다.」를 먼저 말합니다.</p>
+    <p><b>대신 경고 상자는 반드시 읽어 줍니다.</b> 「다만 이건 알고 결정하셔야 합니다.
+    상조회는 <b>낸 기간에 생긴 일만</b> 지급합니다. 나중에 일이 생겨서 그때 가입하시면
+    그 일은 못 받습니다. 그래서 <b>당장 경조사가 예상되는 분은 오늘 함께 넣어 주시는 게</b>
+    유리합니다.」</p>
+    <p>제가 상조회장이라 같이 설명드린다는 점을 밝힙니다.</p>
+  </div>
+</section>
+
+
+<!-- ══ 23-paper.html ══ -->
+<!-- ══ Ⅵ-3 종이에 이것만 ══ -->
+<section class="slide" data-trans="rise" data-ch="Ⅵ. 오늘 하실 일" data-title="종이에 이것만">
+  <p class="eyebrow rise">Ⅵ-3<span class="sep">·</span>지금 나눠드린 세 장</p>
+  <h2 class="title mid rise" style="--d:100ms">종이에 이것만 쓰시면 됩니다</h2>
+  <ul class="gj rise" style="--d:220ms">
+    <li><b>노동조합 가입원서</b>
+      <ul>
+        <li>성명 · 생년월일 · 부서 · 직급 · 연락처</li>
+        <li><b>조합비 급여공제 동의</b> — 월 기본급의 1.2%</li>
+        <li>서명과 작성일</li>
+      </ul>
+    </li>
+    <li><b>천원의 행복 동의서</b> — 선택.<br class="wide">
+    급여 실수령액의 만원 미만 우수리</li>
+    <li><b>상조회원 가입서</b> — 선택.<br class="wide">
+    가입비 100,000원 · 월회비 15,000원</li>
+  </ul>
+  <p class="cap rise" style="--d:400ms">
+    지금 가입하시면 <span class="chip ac">가입 축하 선물</span>을 네이버페이로 드립니다.<br class="wide">
+    오늘 못 쓰셔도 <b>언제든 받습니다.</b>
+  </p>
+  <p class="micro rise" style="--d:500ms">
+    조합원 자격은 <b>임용과 동시에</b> 발생합니다 — 제4조제1항.
+    다만 부서장 이상 보직자와 2급 이상, 임금피크제 대상, 기간제·일용·촉탁·위탁,
+    그리고 인사·노무·징계·복무·임금·후생, 회계·예산·출납, 감사, 보안 담당 등
+    노동조합법 제2조제4호에 해당하는 직무는 가입 대상에서 제외됩니다.
+    해당 여부는 개별적으로 확인해 드리겠습니다.
+  </p>
+  <div class="notes">
+    <p>종이와 펜은 이미 배포된 상태입니다. <b>항목을 손가락으로 세며 30초</b>에 끝냅니다.</p>
+    <p>순서 — 「첫 장이 조합 가입원서입니다. 다섯 줄입니다. 공제 동의란에 서명만 해 주시면
+    됩니다. 둘째 장이 천원의 행복, 셋째 장이 상조회입니다. <b>둘 다 선택입니다.</b>
+    안 쓰셔도 됩니다.」</p>
+    <p><b>마지막 문장을 반드시 말합니다.</b> 「오늘 안 쓰셔도 됩니다.
+    생각해 보시고 언제든 주십시오. 다만 상조회는 아까 말씀드린 소급 문제가 있어서,
+    그것만 참고하시면 됩니다.」 — 압박 없이 닫습니다.</p>
+    <p>제외 대상 안내는 화면에 작게만 두고 읽지 않습니다. 8명 중 해당자가 있으면
+    <b>개별적으로</b> 말씀드립니다. 이 자리에서 호명하지 않습니다.</p>
+    <p>맺음 — 「질문 받겠습니다. 못 하신 질문은 조합 사무실이나 저에게 언제든 주십시오.」</p>
+  </div>
+</section>
+
+
+</div>
+
+<div id="prog"><span></span></div>
+
+<!-- ══ 장 바로가기 — deck.js 가 장 목록에서 생성한다 ══ -->
+<nav id="jump" aria-label="장 바로가기"></nav>
+
+<!-- ══ 모바일 이동 바 ══ -->
+<nav id="mbar" aria-label="슬라이드 이동">
+  <button type="button" id="mPrev" aria-label="이전 슬라이드">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    <span>이전</span>
+  </button>
+  <button type="button" id="mMenu" aria-label="목차 열기"><span id="mCount">1 / 1</span></button>
+  <button type="button" id="mNext" aria-label="다음 슬라이드">
+    <span>다음</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+</nav>
+
+<div id="notes-drawer" aria-live="polite">
+  <div class="hd">발표 노트 — N 키로 닫기</div>
+  <div id="notes-body"></div>
+</div>
+
+<script src="deck/deck.js"></script>
+<script src="deck/vendor/fx-runtime.js"></script>
+</body>
+</html>

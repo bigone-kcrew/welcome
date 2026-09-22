@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>신입직원 안내 — 창업진흥원 노동조합</title>
+<meta name="description" content="2026년 창업진흥원 노동조합 신입직원 안내. 노동조합·노사협의회·상조회 설명자료.">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="deck/vendor/animations.css">
+<link rel="stylesheet" href="deck/deck.css">
+</head>
+<body>
+
+<!-- ══ 좌측 탭 ══ -->
+<aside id="side">
+  <div class="side-top">
+    <img class="logo side-logo logo-d" src="deck/assets/logo-wide-dark.png" alt="창업진흥원노동조합" width="1400" height="218">
+    <img class="logo side-logo logo-l" src="deck/assets/logo-wide.png" alt="" width="1400" height="218">
+    <div class="t">신입직원 안내</div>
+    <div class="s">창업진흥원 노동조합 · 2026년</div>
+  </div>
+  <nav id="nav" aria-label="슬라이드 목차"></nav>
+  <div class="side-tools">
+    <button type="button" id="btnFull" title="전체화면 (F)" aria-label="전체화면">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+    </button>
+    <button type="button" id="btnNotes" title="발표 노트 (N)" aria-label="발표 노트">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 4h14v16H5zM8 9h8M8 13h8M8 17h5"/></svg>
+    </button>
+    <button type="button" id="btnTheme" title="밝은 화면 전환 (T)" aria-label="밝은 화면 전환">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4L17 7M7 17l-1.6 1.6"/></svg>
+    </button>
+    <button type="button" id="btnSide" title="목차 숨기기 (H)" aria-label="목차 숨기기">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h16"/></svg>
+    </button>
+  </div>
+</aside>
+
+<!-- 목차를 숨겼을 때 다시 여는 손잡이 -->
+<button type="button" id="sideOpen" title="목차 보이기 (H)" aria-label="목차 보이기" hidden>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h16"/></svg>
+</button>
+
+<!-- 모바일에서 목차를 닫는 배경 -->
+<div id="sideScrim" hidden></div>
+
+<!-- ══ 현재 장 고정 표시 ══ -->
+<div id="nowch" aria-live="polite"></div>
+
+<!-- ══ 덱 ══ -->
+<div class="deck" id="deck">
+<!--SLIDES-->
+</div>
+
+<div id="prog"><span></span></div>
+
+<!-- ══ 장 바로가기 — deck.js 가 장 목록에서 생성한다 ══ -->
+<nav id="jump" aria-label="장 바로가기"></nav>
+
+<!-- ══ 모바일 이동 바 ══ -->
+<nav id="mbar" aria-label="슬라이드 이동">
+  <button type="button" id="mPrev" aria-label="이전 슬라이드">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    <span>이전</span>
+  </button>
+  <button type="button" id="mMenu" aria-label="목차 열기"><span id="mCount">1 / 1</span></button>
+  <button type="button" id="mNext" aria-label="다음 슬라이드">
+    <span>다음</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+</nav>
+
+<div id="notes-drawer" aria-live="polite">
+  <div class="hd">발표 노트 — N 키로 닫기</div>
+  <div id="notes-body"></div>
+</div>
+
+<script src="deck/deck.js"></script>
+<script src="deck/vendor/fx-runtime.js"></script>
+</body>
+</html>
